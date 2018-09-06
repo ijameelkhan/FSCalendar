@@ -50,7 +50,7 @@ typedef NS_ENUM(NSUInteger, FSCalendarOrientation) {
     NSMutableArray  *_selectedDates;
 }
 
-@property (strong, nonatomic) NSCalendar *gregorian;
+//@property (strong, nonatomic) NSCalendar *gregorian;
 @property (strong, nonatomic) NSDateFormatter *formatter;
 @property (strong, nonatomic) NSDateComponents *components;
 @property (strong, nonatomic) NSTimeZone *timeZone;
